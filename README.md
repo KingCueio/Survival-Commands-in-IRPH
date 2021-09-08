@@ -6,11 +6,11 @@
      - /spawn 
        - This command will teleport you to the spawn of Survival.
      - /tpa <name>
-       - This command will send a request teleportation to a specific player you want to teleport with.
+       - This command will send a request teleportation to a specific player you want to teleport to.
      - /tpahere <name
        - This command will send a request teleportation to a specific player if you want them to teleport on your current location.
      - /mail read <# of Page>
-       - This command will let you read the mails that sent to you by someone.
+       - This command will let you read the mails that are sent to you by someone.
      - /mail send <name> <message>
        - This command will send a message to a specific player that you want to mail with.
      - /rtp
@@ -28,10 +28,13 @@
      - /sethome <name>
        - This command will let you have a save point in order to teleport in that area that you sethome in.
      - /display or [item]
+       - This command allows you to show off your item in the chat.
      - [inventory]
+       - This command allows you to show off your inventory in the chat.
      - /jobs
      - /action
      - /afk
+       - This command allows you to show off that you are afk in the chat.
      - /ah
      - /bal or /money
      - /baltop or /balancetop
