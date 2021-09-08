@@ -4,18 +4,30 @@
    
   These are the following Commands that you can use in Survival:
      - /spawn 
-     - /tpa
-     - /tpahere
-     - /mail
+       - This command will teleport you to the spawn of Survival.
+     - /tpa <name>
+       - This command will send a request teleportation to a specific player you want to teleport with.
+     - /tpahere <name
+       - This command will send a request teleportation to a specific player if you want them to teleport on your current location.
+     - /mail read <# of Page>
+       - This command will let you read the mails that sent to you by someone.
+     - /mail send <name> <message>
+       - This command will send a message to a specific player that you want to mail with.
      - /rtp
+       - This command will teleport you to a random location/area.
      - /unclaim or /abandonclaim
+       - This command deletes the claim you're currently standing in.
      - /abandonallclaims
+       - This command will detele all your claim.
      - /eci or /enderclearinventory
+       - This command will wipe/deletes your entire items in your ender chest.
      - /ci or /clearinventory
+       - This command will wipe/deletes your entire items in your inventory.
      - /home <name>
+       - This command will teleport you to your home that you sethome in the area.
      - /sethome <name>
-     - /display
-     - [item]
+       - This command will let you have a save point in order to teleport in that area that you sethome in.
+     - /display or [item]
      - [inventory]
      - /jobs
      - /action
