@@ -5,13 +5,13 @@
   These are the following Commands that you can use in Survival:
      - /spawn 
        - This command will teleport you to the spawn of Survival.
-     - /tpa <name>
+     - /tpa [name]
        - This command will send a request teleportation to a specific player you want to teleport to.
-     - /tpahere <name
+     - /tpahere [name]
        - This command will send a request teleportation to a specific player if you want them to teleport on your current location.
-     - /mail read <# of Page>
+     - /mail read [# of Page]
        - This command will let you read the mails that are sent to you by someone.
-     - /mail send <name> <message>
+     - /mail send [name] [message]
        - This command will send a message to a specific player that you want to mail with.
      - /rtp
        - This command will teleport you to a random location/area.
@@ -23,9 +23,9 @@
        - This command will wipe/deletes your entire items in your ender chest.
      - /ci or /clearinventory
        - This command will wipe/deletes your entire items in your inventory.
-     - /home <name>
+     - /home [name]
        - This command will teleport you to your home that you sethome in the area.
-     - /sethome <name>
+     - /sethome [name]
        - This command will let you have a save point in order to teleport in that area that you sethome in.
      - /display or [item]
        - This command allows you to show off your item in the chat.
@@ -70,7 +70,7 @@
      - /quest
      - /ranks
      - /rankup
-     - /reedem
+     - /redeem
      - /reply
      - /report
      - /rtp
@@ -94,12 +94,21 @@
   
 - Claims Commands
      - /trust
+       - This command gives another player permission to edit in your claim
      - /Untrust
+       - This command deletes/revokes any permissions granted to a player in your claim.
      - /ContainerTrust
+       - This command gives a player permission to use your buttons, levers, beds, crafting gear, containers, and animals.
      - /AccessTrust
+       - This command gives a player permission to use your buttons, levers, and beds.
      - /PermissionTrust
+       - This command grants a player permission to share his permission level with others.
      - /claim
-     - /claimlist
+       - This command allows you to create a 11 x 11 claimed blocks.
+     - /trapped
+       - This command gets a player out of a land claim he's trapped inside.
+     - /trustlist
+        - This commands lists the permissions for the claim you're standing in.
  
  
 - Chat Feelings Commands
