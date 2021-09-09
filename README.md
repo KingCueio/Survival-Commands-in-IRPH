@@ -607,5 +607,6 @@ ________________________________________________________________________________
         - /Kit Grandmaster
           - This command allows you to get the kit of Grandmaster.
          
-
-If you do have any issue or you see a mistakes regarding about the Commands that you can use in Survival 1 and 2. You may DM me in my Discord: KingCueio#1130
+  _____________________________________________________________________________________________________
+If you do have any issue or you see a mistakes regarding about the Commands 
+that you can use in Survival 1 and 2. You may DM me on my Discord: KingCueio#1130
