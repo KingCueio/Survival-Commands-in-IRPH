@@ -27,8 +27,6 @@
        - This command allows you to show off your item in the chat.
      - [inventory]
        - This command allows you to show off your inventory in the chat.
-     - /action [messages]
-       - This command allows you to broadcast any word/phrase/sentences that you want to type.
      - /ah
        - This command allows you to open the Auction House.
      - /ah view [IGN]
@@ -377,52 +375,80 @@
        - This command allows you to reject the offer.
    
 _____________________________________________________________________________________________________
-
+   
+  **Survival 1 Rank Commands**
 - Novice
      - /back
        - This command will allow you to return to your death point.
-
-   
-_____________________________________________________________________________________________________
-
-
 - Rookie
      - /tpahere [name]
        - This command will send a request teleportation to a specific player if you want them to teleport on your current location.
- _____________________________________________________________________________________________________
-
 
 - Amateur
      - /afk [Requirement: Amateur]
        - This command allows you to show off that you are afk in the chat.
-_____________________________________________________________________________________________________
-
 
 - Artisan
      - /Hat
        - This command allows you to wear an item that you hold to your head
   
-_____________________________________________________________________________________________________
-
 - Veteran
      - /ecraft
        - This command allows you to use workbench/crafting table by typing the command.
      - /Enderchest
        - This command allows you to use ender chest by typing the command.
- 
-
-_____________________________________________________________________________________________________
-
 
 - Regent
+     - mez [Message]
+       - This command allows you to broadcast any word/phrase/sentences that you want to type without the space.
+     - /action [messages]
+       - This command allows you to broadcast any word/phrase/sentences that you want to type.
      - /BuyClaimBlocks [Number of Blocks]
        - This command allows you to buy claim blocks for claims. 1 Block = 100$
-  
-_____________________________________________________________________________________________________
-
 
 - Captain
      - /PlayerVault 1
+       - This command allows you to view the vault just like inventory but much larger inventory.
+  
+ _____________________________________________________________________________________________________
+ 
+  **Survival 2 Rank Commands**
+- Stranger
+     - /back
+       - This command will allow you to return to your death point.
+- Member
+     - /tpahere [name]
+       - This command will send a request teleportation to a specific player if you want them to teleport on your current location.
+
+- Civilian
+     - /afk 
+       - This command allows you to show off that you are afk in the chat.
+
+- Marquess
+     - /Hat
+       - This command allows you to wear an item that you hold to your head
+  
+- King
+     - /ecraft
+       - This command allows you to use workbench/crafting table by typing the command.
+     - /Enderchest
+       - This command allows you to use ender chest by typing the command.
+- Ronin
+     - /lay
+       - This command allows you to lay.
+     - /crawl
+       - This command allows you to crawl.
+
+- Kaiser
+     - mez [Message]
+       - This command allows you to broadcast any word/phrase/sentences that you want to type without the space.
+     - /action [messages]
+       - This command allows you to broadcast any word/phrase/sentences that you want to type.
+     - /BuyClaimBlocks [Number of Blocks]
+       - This command allows you to buy claim blocks for claims. 1 Block = 100$
+
+- Seasoned
+     - /PlayerVault 1-2
        - This command allows you to view the vault just like inventory but much larger inventory.
   
  _____________________________________________________________________________________________________
