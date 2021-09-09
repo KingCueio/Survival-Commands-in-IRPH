@@ -62,8 +62,6 @@
        - This command allows un-ignores a target player's chat messages.
      - /inspect [IGN]
        - This command will lists all mcMMO stats on the specific player. You will need to get close to the player in order to get the mcMMO stats.
-     - /jobs join [jobname]
-       - This command will allow you to join the specific job such as: Brewer,Builder,Crafter,Digger,Enchanter,Explorer,Farmer,Fisherman,Hunter,Miner,Weaponsmith,Woodcutter
      - /kit
        - This command will lists all kits that you can claim.
      - /kit [Name]
