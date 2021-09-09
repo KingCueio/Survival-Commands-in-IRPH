@@ -16,7 +16,7 @@
      - /unclaim or /abandonclaim
        - This command deletes the claim you're currently standing in.
      - /abandonallclaims
-       - This command will detele all your claim.
+       - This command will delete all your claim.
      - /home [name]
        - This command will teleport you to your home that you sethome in the area.
      - /sethome [name]
@@ -353,6 +353,29 @@
        - This command will indicate that you patted the specific player.
      - /stalk [IGN]
        - This command will indicate that you stalked the specific player.
+
+  _____________________________________________________________________________________________________
+   
+  **Warp Shop Commands**
+     - /arm help [# of page]
+       - This command lists all commands of Warp Shop.
+     - /arm addmember [IGN]
+       - This command allows you to add a member to your warp shop.
+     - /arm buy
+       - This command allows you to buy the warp shop that you are currently standing in.
+     - /arm gui
+       - This command displays a gui for your Warp Shops that you own and the list of members.
+     - /arm info [REGION]
+       - This command displays all the information of the specific warp shop plom
+     - /arm offer [BUYER] [REGION] [PRICE]
+       - This command allows you to offer the buyer that you want to sell, with your own price.
+     - /arm offer accept
+       - This command allows you to accept the offer.
+     - /arm offer cancel
+       - This command allows you to cancel the offer.
+     - /arm offer reject
+       - This command allows you to reject the offer.
+   
 _____________________________________________________________________________________________________
 
 - Novice
@@ -400,7 +423,7 @@ ________________________________________________________________________________
 
 - Captain
      - /PlayerVault 1
-       - This command allows you to 
+       - This command allows you to view the vault just like inventory but much larger inventory.
   
  _____________________________________________________________________________________________________
    
