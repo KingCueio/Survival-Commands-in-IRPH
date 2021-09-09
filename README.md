@@ -7,8 +7,6 @@
        - This command will teleport you to the spawn of Survival.
      - /tpa [name]
        - This command will send a request teleportation to a specific player you want to teleport to.
-     - /tpahere [name]
-       - This command will send a request teleportation to a specific player if you want them to teleport on your current location.
      - /mail read [# of Page]
        - This command will let you read the mails that are sent to you by someone.
      - /mail send [name] [message]
@@ -45,7 +43,8 @@
      - /baltop or /balancetop
        - This command allows you to see the lists of who has the most money.
      - /blocklocker [line number] [IGN]
-     - /blacksmith or /bs
+       - This command allows you to put someone's name in the private sign and they will get permission on it.
+     - /blacksmith or /bs (Currently Disabled)
        - This command displays a GUI of A look alike anvil but you can combine the Same Level of CE to upgrade.
      - /coords on/off
        - This command will display the coordinate of the player as long as the player has the coords toggled.
@@ -288,13 +287,15 @@ ________________________________________________________________________________
 
 - Novice
      - /back
+       - This command will allow you to return to your death point.
 
    
 _____________________________________________________________________________________________________
 
 
 - Rookie
-     - /tpahere
+     - /tpahere [name]
+       - This command will send a request teleportation to a specific player if you want them to teleport on your current location.
  _____________________________________________________________________________________________________
 
 
@@ -306,25 +307,30 @@ ________________________________________________________________________________
 
 - Artisan
      - /Hat
+       - This command allows you to wear an item that you hold to your head
   
 _____________________________________________________________________________________________________
 
 - Veteran
-     - Workbench
+     - /ecraft
+       - This command allows you to use workbench/crafting table by typing the command.
      - /Enderchest
+       - This command allows you to use ender chest by typing the command.
  
 
 _____________________________________________________________________________________________________
 
 
 - Regent
-     - /BuyClaimBlocks
+     - /BuyClaimBlocks [Number of Blocks]
+       - This command allows you to buy claim blocks for claims. 1 Block = 100$
   
 _____________________________________________________________________________________________________
 
 
 - Captain
      - /PlayerVault 1
+       - This command allows you to 
   
  _____________________________________________________________________________________________________
 
