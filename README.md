@@ -46,6 +46,7 @@
        - This command allows you to see the lists of who has the most money.
      - /blocklocker [line number] [IGN]
      - /blacksmith or /bs
+       - This command displays a GUI of A look alike anvil but you can combine the Same Level of CE to upgrade.
      - /coords on/off
        - This command will display the coordinate of the player as long as the player has the coords toggled.
      - /suicide
@@ -102,9 +103,13 @@
        - This command allows you to pay another player from your balance.
      - /playtime [name]
        - This command allows you to check someone's playtime and the Times Joined. The Command will only be for Online Players.
-     - /pw or /pwarp
      - /qs
      - /quest
+       - This command displays a GUI of the category quests that you can start.
+     - /quest started
+       - This command displays a GUI of the quest that you started.
+     - /quest random
+       - This command allows you to pick a random quest.
      - /ranks
        - This command lists all the ranks that you can aquire.
      - /rankup
@@ -125,15 +130,38 @@
        - This command will deletes your current skin and will turn your skin into default skin (Steve Skin)
      - /sounds toggle
        - This command will toggle your sound on chat messages.
-     - /trade
-     - /trustlist
-     - /tv
+     - /trade [IGN]
+       - This command allows you to intiate a trade to the specific player.
+     - /trade toggle
+       - This command allows you to toggle the trade so no one can trade with you.
+     - /trade accept
+       - This command allows you to accept the trade.
+     - /trade deny
+       - This command allows you to deny the trade. 
+     - /tv or /timevote
+       - This command opens a Voting GUI for the Time Vote.
+     - /tv day or /timevote day
+       - This command allows you to start a day vote.
+     - /tv night or /timevote night
+       - This command allows you to start a night vote.
+     - /tv yes or /timevote yes
+       - This command allows you to vote for yes.
+     - /tv no or /timevote no
+       - This command allows you to vote for no.
      - /uptime
+       - This command displays on how many mins/hours/days the gamemode has been open/
      - /vote
+       - This command lists all existing sites that you can vote to.
      - /voteparty
-     - /warp
-     - /withdraw
-     - /xpbottle [ammount]
+       - This command shows you on how many votes until the vote party starts.
+     - /warps [# of Pages]
+       - This command shows you the warps that was created by the OP players/Owner of the Server.
+     - /warp [Name]
+       - This command allows you to teleport to the specific warp such as: BoatRace, Casino,Chill, CommunityChest, Crates, CustomEnchants, Event, HorseRace, Jail, Live, Lottery, Pantry, Parkour, PvP, Quest, Ranks, ronafk, Rules, Seaman, Shop, Signin, StaffCity, tournament, Tutorial, yey
+     - /withdraw [Amount]
+       - This command allows you to withdraw how much you want from your balance.
+     - /xpbottle [Amount]
+       - This command allows you to withdraw how much you want from your EXP.
   _____________________________________________________________________________________________________
    
   **Player Warp Commands**
