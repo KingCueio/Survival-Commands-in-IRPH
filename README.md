@@ -106,19 +106,26 @@
      - /qs
      - /quest
      - /ranks
+       - This command lists all the ranks that you can aquire.
      - /rankup
-     - /redeem
+       - This command allows you to ranking up on the next available rank.
+     - /reedem
+       - This command converts your mcMMO balance to paper that includes your mcMMO balance.
      - /reply
-     - /report
-     - /rtp
+       - This command allows you to reply on someone who sent you a private chat message.
+     - /report [IGN] [Reason]
+       - This command allows you to report someone that breaks a rules in our server.
      - /salvage
+       - This command allows you to breakdown crafted items into basic materials.
      - /sit
-     - /skin set <Name>
+       - This command allows you to sit down on a block.
+     - /skin set [Name]
+       - This command allows you to set your skin by typing the name/ign of Skin that you wanted.
+     - /skin clear
+       - This command will deletes your current skin and will turn your skin into default skin (Steve Skin)
      - /sounds toggle
-     - /team
-     - /teamchat
+       - This command will toggle your sound on chat messages.
      - /trade
-     - /trapped
      - /trustlist
      - /tv
      - /uptime
@@ -126,11 +133,72 @@
      - /voteparty
      - /warp
      - /withdraw
-     - /xpbottle <ammount>
-
+     - /xpbottle [ammount]
   _____________________________________________________________________________________________________
    
-- Claims Commands
+  **Player Warp Commands**
+     - /pw or /pwarp
+       - This command displays a gui of Warps of other Players and yours.
+     - /pw help
+       - This command displays the menu of Player Warp.
+     - /pw [Name of Warp]
+       - This command allows to teleport to the specific player warp.
+     - /pw set [Name of Warp]
+       - This command allows you to create a warp to your location.
+     - /pw remove [Name of Warp]
+       - This command will remove the specific player warp.
+     - /pw desc set [name of warp] [Description]
+       - This command allows you to create a description on the specific player warp.
+     - /pw desc remove [name of warp] [Description]
+       - This command allows you to remove a description on the specific player warp.
+     - /pw list
+       - This command displays all the current player warp.
+     - /pw open [category]
+       - This command opens the player warp gui.
+     - /pw amount
+       - This command will tell you how many warps that you have used.
+     - /pw reload
+       - This command will reload all the config files
+     - /pw icon set [Name of Warp]
+       - This command will create an icon for the specific player warp.
+     - /pw icon remove [Name of Warp]
+       - This command will remove an icon for the specific player warp.
+     - /pw category [name of warp] [category]
+       - This command will put your current player warp to a category such as :farms,houses,pvp,shops
+     - /pw rate [Name of Warp] [Rate]
+       - This command allows you to rate the specific player warp 1 up to 5.
+     - /pw lock [Name of Warp]
+       - This command allows you to lock your specific player warp.
+     - /pw cost set [Name of Warp] [Cost]
+       - This command allows you to create on how much cost you can join on your specific player warp.
+     - /pw cost remove [Name of Warp] [Cost]
+       - This command allows you to remove the cost of your specific player warp.
+     - /pw reset [Name of Warp]
+       - This command allows you to re-set your specific player warp's location.
+     - /pw rename [Name of your Warp] [New Name]
+       - This command allows you to rename your current name of player warp.
+     - /pw setowner [Name of Warp] [IGN]
+       - This command allows you to transfer the ownership of your player warp to a specific player.
+     - /pw password set [Name of Warp] [Password]
+       - This command allows you to create a password to your specific player warp.
+     - /pw password remove [Name of Warp]
+       - This command allows you to remove/delete a passwrd to your specific player warp.
+  _____________________________________________________________________________________________________
+   
+  **Team Commands**
+     - /team
+       - This command gives another player permission to edit in your claim.
+     - /team delhome
+       - This command allows you to delete your team's home.
+     - /team echest
+       - This command allows you to view your team ender chest.
+     - /team color [color code]
+       - This command will change the color of you team.
+     - /teamchat
+       - 
+  _____________________________________________________________________________________________________
+   
+  **Claims Commands**
      - /trust
        - This command gives another player permission to edit in your claim
      - /Untrust
@@ -146,31 +214,48 @@
      - /trapped
        - This command gets a player out of a land claim he's trapped inside.
      - /trustlist
-        - This commands lists the permissions for the claim you're standing in.
- _____________________________________________________________________________________________________
+        - This command lists the permissions for the claim you're standing in.
+  _____________________________________________________________________________________________________
    
- 
-- Chat Feelings Commands
-     - /feelings
-     - /hug <ign>
-     - /slap <ign>
-     - /poke <ign>
-     - /highfive <ign>
-     - /facepalm <ign>
-     - /yell <ign>
-     - /bite <ign>
-     - /snuggle <ign>
-     - /shake <ign>
-     - /stab <ign>
-     - /kiss <ign>
-     - /punch <ign>
-     - /murder <ign>
-     - /boi <ign>
-     - /cry <ign>
-     - /dab <ign>
-     - /pat <ign> 
-     - /stalk <ign>
-  
+  **Chat Feelings Commands**
+     - /feelings 
+       - This command lists all the Chat Feelings command that you can type.
+     - /hug [IGN]
+       - This command will indicate that you hugged the specific player.
+     - /slap [IGN]
+       - This command will indicate that you slapped the specific player.
+     - /poke [IGN]
+       - This command will indicate that you poked the specific player.
+     - /highfive [IGN]
+       - This command will indicate that you high-fived the specific player.
+     - /facepalm [IGN]
+       - This command will indicate that you facepalmed the specific player.
+     - /yell [IGN]
+       - This command will indicate that you yelled the specific player.
+     - /bite [IGN]
+       - This command will indicate that you bitten the specific player.
+     - /snuggle [IGN]
+       - This command will indicate that you snuggled the specific player.
+     - /shake [IGN]
+       - This command will indicate that you shook the specific player.
+     - /stab [IGN]
+       - This command will indicate that you stabbed the specific player.
+     - /kiss [IGN]
+       - This command will indicate that you kissed the specific player.
+     - /punch [IGN]
+       - This command will indicate that you punched the specific player.
+     - /murder [IGN]
+       - This command will indicate that you murdered the specific player.
+     - /boi [IGN]
+       - This command will indicate that you boied the specific player.
+     - /cry [IGN]
+       - This command will indicate that you cried the specific player.
+     - /dab [IGN]
+       - This command will indicate that you dabbed the specific player.
+     - /pat [IGN]
+       - This command will indicate that you patted the specific player.
+     - /stalk [IGN]
+       - This command will indicate that you stalked the specific player.
 _____________________________________________________________________________________________________
 
 - Novice
