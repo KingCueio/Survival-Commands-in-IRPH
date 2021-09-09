@@ -223,7 +223,7 @@
      - /team color [color code]
        - This command will change the color of you team.
      - /teamchat
-       - 
+       - This command allows you to send a message only to you team.
   _____________________________________________________________________________________________________
    
   **Claims Commands**
