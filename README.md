@@ -231,6 +231,68 @@
        - This command allows you to view your team ender chest.
      - /team color [color code]
        - This command will change the color of you team.
+     - /team allychat [message]
+       - This command will send a message only to your allies.
+     - /team description [description]
+       - This command will view and change your team's description
+     - /team setwarp [name] [password]
+       - This command allows you to set/create a warp for the rest of your team.
+     - /team title [IGN] [Tittle]
+       - This command allows you to change the specific player's tittle within the team.
+     - /team bal
+       - This command shows you your team balance.
+     - /team ban [IGN]
+       - This command allows you to ban a specific player from your team.
+     - /team promote [IGN]
+       - This command allows you to promote the specific player with in the team.
+     - /team warps
+       - This command allows you to view a list of your team warps.
+     - /team top
+       - This command allows you to view the top teams.
+     - /team ally [TeamName]
+       - This command allows you to initiate a request an alliance with another team.
+     - /team rankup
+       - This command allows to rank you team up to get more perks.
+     - /team join [TeamName]
+       - This command allows you to join the specific team.
+     - /team leave [TeamName]
+       - This command allows you to leave your current team.
+     - /team sethome
+       - This command allows you to set your team's home
+     - /team create [name] [Tag]
+       - This command allows you to create a team with a specific name.
+     - /team rank [TeamName]
+       - This command allows you to view the rank of a team.
+     - /team tag [Tag]
+       - This command allows you to set your team's tag.
+     - /team disband
+       - This command allows you to disband your current team.
+     - /team info [TeamName/IGN]
+       - This command allows you to view information about a specific team/player.
+     - /team delwarp [name] [password]
+       - This command allows you to delete the existing warp from your team.
+     - /team neutral [Name]
+       - This command allows you to remove allies and reject ally requests.
+     - /team pvp
+       - This command allows you to toggle the pvp for your team.
+     - /team baltop
+       - This command views the richest teams.
+     - /team list [# of Page]
+       - This command lists all teams on the gamemode.
+     - /team home 
+       - This command allows you to teleport to your team's home.
+     - /team unban [IGN]
+       - This command allows you to unban a specific player from your team.
+     - /team demote [IGN]
+       - This command allows you to demote a specific player from your team.
+     - /team kick [IGN]
+       - This command allows you to kick a specific player from your team.
+     - /team name [Name]
+       - This command allows you to view and change your team's name.
+     - /team deposit [amount]
+       - This command allows you to deposite money from your balance into your team's balance.
+     - /team withdraw [amount]
+       - This command allows you to withdraw money from your team's balance into your balance.
      - /teamchat
        - This command allows you to send a message only to you team.
   _____________________________________________________________________________________________________
