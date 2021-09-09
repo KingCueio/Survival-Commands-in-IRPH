@@ -17,10 +17,6 @@
        - This command deletes the claim you're currently standing in.
      - /abandonallclaims
        - This command will detele all your claim.
-     - /eci or /enderclearinventory
-       - This command will wipe/deletes your entire items in your ender chest.
-     - /ci or /clearinventory
-       - This command will wipe/deletes your entire items in your inventory.
      - /home [name]
        - This command will teleport you to your home that you sethome in the area.
      - /sethome [name]
@@ -31,7 +27,6 @@
        - This command allows you to show off your item in the chat.
      - [inventory]
        - This command allows you to show off your inventory in the chat.
-     - /jobs
      - /action [messages]
        - This command allows you to broadcast any word/phrase/sentences that you want to type.
      - /ah
@@ -91,9 +86,7 @@
        - This command lists all players who have the Most Skill such as: Acrobatics,Alchemy,Archery,Axes,Excavation,
          Fishing,Herbalism,Mining,Repair,Salvage,Smelting,Swords,Taming,Unarmed,WoodCutting
      - /msg or /tell
-       - This command allows you to private message to the specific player.
-     - /near
-       - This command allows you to lists all players who is/are near to you.
+       - This command allows you to private message to the specific player..
      - /party join [Name] [Password]
        - This command allows you to join in someone's party. You will have to type the password if they have password. If they dont, just type the name.
      - /partychat
@@ -102,7 +95,6 @@
        - This command allows you to pay another player from your balance.
      - /playtime [name]
        - This command allows you to check someone's playtime and the Times Joined. The Command will only be for Online Players.
-     - /qs
      - /quest
        - This command displays a GUI of the category quests that you can start.
      - /quest started
@@ -210,6 +202,24 @@
        - This command allows you to create a password to your specific player warp.
      - /pw password remove [Name of Warp]
        - This command allows you to remove/delete a passwrd to your specific player warp.
+  _____________________________________________________________________________________________________
+   
+  **Jobs Commands**
+     - /jobs help [# of Page]
+       - This command lists all the commands that you can use in jobs
+     - /jobs browse
+       - This comamnd displays a GUI of jobs that you can join and leave.
+     - /jobs gtop
+       - This command displays a leaderboard of top players by global jobs level.
+     - /jobs join [Name of Job]
+       - This command will directly let you join in the Job such as: Brewer, Builder, Crafter, Digger, Enchanter, Explorer, Farmer, Fisherman, Hunter, Miner, Weaponsmith, Woodcutter
+     - /jobs leave [Name of Job]
+       - This command will directly leave to the specific job that you already have job on it.
+     - /jobs stats [IGN]
+       - This command displays a stats of your jobs such as Level of your Job and exp of it.
+     - /jobs top [Name of Jop]
+       - This command allows shows the top players by jobs name such as: Brewer, Builder, Crafter, Digger, Enchanter, Explorer, Farmer, Fisherman, Hunter, Miner, Weaponsmith, Woodcutter
+   
   _____________________________________________________________________________________________________
    
   **Team Commands**
@@ -333,93 +343,139 @@ ________________________________________________________________________________
        - This command allows you to 
   
  _____________________________________________________________________________________________________
-
-
-- Survival 1  VIP Commands
-    - Titan Rank
-         - /Nick
-         - /Invsee
-         - /Realname
-         - /TpToggle
-         - /Color
-         - /Kit Titan
-
-    - Kronos Rank
-         - /Nick
-         - /Invsee
-         - /Realname
-         - /TpToggle
-         - /Color
-         - /Feed
-         - /Heal
-         - /Clear
-         - /Near
-         - /Kit Titan
-         - /Kit Kronos
-
- 
-  
+   
+  **Survival 1 Rank VIP Commands**
+   - Titan Rank
+        - /Nick
+          - This command allows you to nickname yourself into any words/phrase/letters/symbols.
+        - /Invsee [IGN]
+          - This command allows you to check someone's inventory.
+        - /Realname [Nickname]
+          - This command allows you to know who's behind the nickname of the VIP.
+        - /TpToggle
+          - This command allows you to toggle your teleportation request.
+        - /Color
+          - This command allows you to get chat colors.
+        - /Kit Titan
+          - This command allows you to get the kit of Titan.
+   - Kronos Rank
+        - /Nick
+          - This command allows you to nickname yourself into any words/phrase/letters/symbols.
+        - /Invsee [IGN]
+          - This command allows you to check someone's inventory.
+        - /Realname [Nickname]
+          - This command allows you to know who's behind the nickname of the VIP.
+        - /TpToggle
+          - This command allows you to toggle your teleportation request.
+        - /Feed or /heal
+          - This command allows you to get full health in one go, but the cooldown is 1 minute.
+        - /Ci or /ClearInventory
+          - This command allows you to remove all items in your inventory.
+        - /near
+          - This command allows you to lists all players who is/are near to you
+        - /Kit Titan
+          - This command allows you to get the kit of Titan.
+        - /Kit Kronos
+          - This command allows you to get the kit of Kronos.
    - Olympian Rank
         - /Nick
-        - /Invsee
-        - /Realname
+          - This command allows you to nickname yourself into any words/phrase/letters/symbols.
+        - /Invsee [IGN]
+          - This command allows you to check someone's inventory.
+        - /Realname [Nickname]
+          - This command allows you to know who's behind the nickname of the VIP.
         - /TpToggle
-        - /Color
-        - /Feed
-        - /Heal
-        - /Clear
-        - /Near
-        - /fly
+          - This command allows you to toggle your teleportation request.
+        - /Feed or /heal
+          - This command allows you to get full health in one go, but the cooldown is 1 minute.
+        - /Ci or /ClearInventory
+          - This command allows you to remove all items in your inventory.
+        - /near
+          - This command allows you to lists all players who is/are near to you
+        - /fly on/off
+          - This command allows you to enable and disable the flight command.
         - /fix
+          - This command allows you to fix or regenerate your durability of the item that you are holding.
         - /fix all
+          - This command allows you to fix all or regenerate all your duratibility in all of your inventory.
         - /Color (Can use the rainbow color chat)
+          - This command allows you to get chat colors.
         - /Kit Titan
+          - This command allows you to get the kit of Titan.
         - /Kit Kronos
+          - This command allows you to get the kit of Kronos.
         - /Kit Olympian
+          - This command allows you to get the kit of Olympian.
 
   _____________________________________________________________________________________________________
- - Survival 2 Rank VIP Commands
-    - Imperial Rank
-         - /Nick
-         - /Invsee
-         - /Realname
-         - /TpToggle
-         - /Color
-         - /Kit Imperial
+   
+  **Survival 2 Rank VIP Commands**
+   - Imperial Rank
+        - /Nick
+          - This command allows you to nickname yourself into any words/phrase/letters/symbols.
+        - /Invsee [IGN]
+          - This command allows you to check someone's inventory.
+        - /Realname [Nickname]
+          - This command allows you to know who's behind the nickname of the VIP.
+        - /TpToggle
+          - This command allows you to toggle your teleportation request.
+        - /Color
+          - This command allows you to get chat colors.
+        - /Kit Imperial
+          - This command allows you to get the kit of imperial that contains 
 
  
-    - ArchDuke Rank
-         - /Nick
-         - /Invsee
-         - /Realname
-         - /TpToggle
-         - /Color
-         - /Feed
-         - /Heal
-         - /Clear
-         - /Near
-         - /Kit Imperial
-         - /Kit ArchDuke
+   - ArchDuke Rank
+        - /Nick
+          - This command allows you to nickname yourself into any words/phrase/letters/symbols.
+        - /Invsee [IGN]
+          - This command allows you to check someone's inventory.
+        - /Realname [Nickname]
+          - This command allows you to know who's behind the nickname of the VIP.
+        - /TpToggle
+          - This command allows you to toggle your teleportation request.
+        - /Feed or /heal
+          - This command allows you to get full health in one go, but the cooldown is 1 minute.
+        - /Ci or /ClearInventory
+          - This command allows you to remove all items in your inventory.
+        - /near
+          - This command allows you to lists all players who is/are near to you.
+        - /Kit Imperial
+          - This command allows you to get the kit of Imperial.
+        - /Kit Archduke
+          - This command allows you to get the kit of Archduke.
 
 
   
-    - GrandMaster Rank
-         - /Nick
-         - /Invsee
-         - /Realname
-         - /TpToggle
-         - /Color
-         - /Feed
-         - /Heal
-         - /Clear
-         - /Near
-         - /fly
-         - /fix
-         - /fix all
-         - /Color (Can use the rainbow color chat)
-         - /Kit Imperial
-         - /Kit ArchDuke
-         - /Kit GrandMaster
-
+   - GrandMaster Rank
+        - /Nick
+          - This command allows you to nickname yourself into any words/phrase/letters/symbols.
+        - /Invsee [IGN]
+          - This command allows you to check someone's inventory.
+        - /Realname [Nickname]
+          - This command allows you to know who's behind the nickname of the VIP.
+        - /TpToggle
+          - This command allows you to toggle your teleportation request.
+        - /Feed or /heal
+          - This command allows you to get full health in one go, but the cooldown is 1 minute.
+        - /Ci or /ClearInventory
+          - This command allows you to remove all items in your inventory.
+        - /near
+          - This command allows you to lists all players who is/are near to you
+        - /fly on/off
+          - This command allows you to enable and disable the flight command.
+        - /fix
+          - This command allows you to fix or regenerate your durability of the item that you are holding.
+        - /fix all
+          - This command allows you to fix all or regenerate all your duratibility in all of your inventory.
+        - /Color (Can use the rainbow color chat)
+          - This command allows you to get chat colors.
+        - /Kit Imperial
+          - This command allows you to get the kit of Imperial.
+        - /Kit Archduke
+          - This command allows you to get the kit of Archduke.
+        - /Kit Grandmaster
+          - This command allows you to get the kit of Grandmaster.
+         
 
 
