@@ -152,6 +152,9 @@
   _____________________________________________________________________________________________________
    
   **Player Warp Commands**
+  
+  
+   These are the following commands for Player Warp:
      - /pw or /pwarp
        - This command displays a gui of Warps of other Players and yours.
      - /pw help
@@ -201,6 +204,9 @@
   _____________________________________________________________________________________________________
    
   **Jobs Commands**
+    
+  
+   These are the following commands for Jobs:
      - /jobs help [# of Page]
        - This command lists all the commands that you can use in jobs
      - /jobs browse
@@ -219,6 +225,9 @@
   _____________________________________________________________________________________________________
    
   **Team Commands**
+      
+  
+   These are the following commands for Team:
      - /team
        - This command gives another player permission to edit in your claim.
      - /team delhome
@@ -293,7 +302,10 @@
        - This command allows you to send a message only to you team.
   _____________________________________________________________________________________________________
    
-  **Claims Commands**
+  **Claim Commands**
+      
+  
+   These are the following commands for Claim:
      - /trust
        - This command gives another player permission to edit in your claim
      - /Untrust
@@ -355,6 +367,9 @@
   _____________________________________________________________________________________________________
    
   **Warp Shop Commands**
+     
+  
+   These are the following commands for Warp Shop:
      - /arm help [# of page]
        - This command lists all commands of Warp Shop.
      - /arm addmember [IGN]
@@ -377,6 +392,9 @@
 _____________________________________________________________________________________________________
    
   **Survival 1 Rank Commands**
+    
+  
+   These are the following commands for Survival 1 Rank:
 - Novice
      - /back
        - This command will allow you to return to your death point.
@@ -454,6 +472,9 @@ ________________________________________________________________________________
  _____________________________________________________________________________________________________
    
   **Survival 1 Rank VIP Commands**
+      
+  
+   These are the following commands for Survival 2 Rank:
    - Titan Rank
         - /Nick
           - This command allows you to nickname yourself into any words/phrase/letters/symbols.
@@ -587,4 +608,4 @@ ________________________________________________________________________________
           - This command allows you to get the kit of Grandmaster.
          
 
-
+If you do have any issue or you see a mistakes regarding about the Commands that you can use in Survival 1 and 2. You may DM me in my Discord: KingCueio#1130
