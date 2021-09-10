@@ -87,8 +87,6 @@
        - This command allows you to join in someone's party. You will have to type the password if they have password. If they dont, just type the name.
      - /partychat
        - This command allows you to type in party chat. If you do want to type in global chat just type the /partychat again.
-     - /pay [player] [amount]
-       - This command allows you to pay another player from your balance.
      - /playtime [name]
        - This command allows you to check someone's playtime and the Times Joined. The Command will only be for Online Players.
      - /quest
@@ -396,6 +394,8 @@ ________________________________________________________________________________
   
    These are the following commands for Survival 1 Rank:
 - Novice
+     - /pay [player] [amount]
+       - This command allows you to pay another player from your balance.
      - /back
        - This command will allow you to return to your death point.
 - Rookie
@@ -432,6 +432,8 @@ ________________________________________________________________________________
  
   **Survival 2 Rank Commands**
 - Stranger
+     - /pay [player] [amount]
+       - This command allows you to pay another player from your balance.
      - /back
        - This command will allow you to return to your death point.
 - Member
